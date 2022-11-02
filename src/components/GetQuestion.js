@@ -69,16 +69,7 @@ const GetQuestion = (props) => {
   const Text = () => <div>Answer: {question[0].answer}</div>;
 
   const targetDiv = document.querySelector("answertoggle");
-  // const btn = document.getElementById("toggle");
-
-  // const showAnswer = (e) => {
-  //   if (e.style.display !== "none") {
-  //     e.style.display = "none";
-  //   } else {
-  //     e.style.display = "block";
-  //   }
-  // }
-  // const Text10 = () => <div>Answer: {questions.answer}</div>
+  
   return (
     <div>
       <h1>Score: {score}</h1>
